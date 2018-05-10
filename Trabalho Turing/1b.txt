@@ -1,0 +1,34 @@
+Considerando cada xi sendo uma char[k][l] com k sendo o numero de elementos e l o tamanho do xi
+Considere 4* um char[] composto de numeros 4
+Para realizar a comparacao elemento a elemento, usamos os numeros 2 e 3 -- omissos no algoritmo
+
+char* xcomp
+char** xorig = x
+bool trocou = false
+for init in range(0 to n)
+	if (x[init] != 4*)
+		xcomp = x[0]*
+	else
+		nextIteration()
+	for i in range (1 to n):
+		for j in range(0 to size(xcomp)):
+			if (xcomp[j] != x[i][j])
+				break;
+			else
+				xcomp[j] = 4
+				x[i][j] = 4
+	for i in range (1 to n):
+		if (not trocou)
+			for j in range(0 to size(xcomp)):
+				if (x[i]* == 4*):
+					trocou = true
+					break
+		else
+			for j in range(0 to size(xcomp)):
+				if (x[i]* == 4*):
+					return false
+				else
+					x[i][j] = xorig[i][j]
+	trocou = false
+
+return true
