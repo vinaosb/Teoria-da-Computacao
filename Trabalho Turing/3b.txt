@@ -1,0 +1,16 @@
+Considerando a entrada e uma string de 'a's
+Consideramos b como o F(n-1) e c como F(n)
+Temos que fazer as seguintes etapas:
+
+Inicializar Primeiro elemento
+Inicializar Segundo elemento
+
+Loop:
+	Conferir se ainda existe elementos para adicionar (se nao existir break)
+	Fazer o proximo elemento:
+		Marcar os C's existentes
+		Copiar os b's (e marca-los como B's para nao pegar 2x) para o fim da fita (ao invez de ser b, ser c; a fim de calcular F(n+1))
+	Colocar os C's no lugar dos b's (e mover a fita a frente o quanto for necessário)
+	Repete
+
+Trocar todos os elementos diferentes de c's por espacos em branco
