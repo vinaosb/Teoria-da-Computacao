@@ -10,7 +10,8 @@ Loop:
 	Fazer o proximo elemento:
 		Marcar os C's existentes
 		Copiar os b's (e marca-los como B's para nao pegar 2x) para o fim da fita (ao invez de ser b, ser c; a fim de calcular F(n+1))
-	Colocar os C's no lugar dos b's (e mover a fita a frente o quanto for necessário)
+	Colocar os C's pro fim da fita e apagar onde eles estao
+	Preencher entre A/a e c com b's
 	Repete
 
 Trocar todos os elementos diferentes de c's por espacos em branco
